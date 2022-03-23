@@ -12,9 +12,11 @@ Before interacting with Gym-Cloth, it is important to run gym-cloth/setup.py, wh
 2) To run a learned policy in the simulator, modify gym-cloth/run_policies.sh as needed.
 
 To run online behavior cloning:
+
 3) python Online_BC.py
 
 To perform image augmentations on the dataset:
+
 4) python augment_images.py 
 
 5) analysis/ includes some data analysis and image processing scripts, which can be run similarly to 3) and 4).
