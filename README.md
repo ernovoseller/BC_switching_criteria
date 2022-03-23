@@ -1,6 +1,6 @@
 # BC_switching_criteria
 
-This project involves determining when policies trained in simulation are ready to be deployed to the real world. We focus on behavior cloning for a fabric smoothing task, and utilize the [Gym-Cloth simulator](https://github.com/DanielTakeshi/gym-cloth), developed in Seita et al., "[Deep Imitation Learning of Sequential Fabric Smoothing From an Algorithmic Supervisor](https://arxiv.org/abs/1910.04854)", IROS 2020.
+This project involves determining when policies trained in simulation are ready to be deployed to the real world. We study behavior cloning for a fabric smoothing task, and utilize the [Gym-Cloth simulator](https://github.com/DanielTakeshi/gym-cloth), developed in Seita et al., "[Deep Imitation Learning of Sequential Fabric Smoothing From an Algorithmic Supervisor](https://arxiv.org/abs/1910.04854)", IROS 2020.
 
 Installation instructions are as detailed for Gym-Cloth [here](https://github.com/DanielTakeshi/gym-cloth), except that our requirements.txt file includes several additional dependencies.
 
