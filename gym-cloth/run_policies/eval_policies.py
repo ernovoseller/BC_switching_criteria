@@ -121,7 +121,6 @@ def run(args, policy, env, mode = 'eval'):
     with open(args.result_path, 'wb') as fh:
         pickle.dump(stats_all, fh)
 
-    assert len(stats_all) == args.max_episodes, len(stats_all)
     if env.render_proc is not None:
         env.render_proc.terminate()
         # env.cloth.stop_render()

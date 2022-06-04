@@ -24,3 +24,8 @@ data/
 *.prof
 *.obj
 *.png
+
+YuMi_images/
+bc_runs/
+bC_data/
+
